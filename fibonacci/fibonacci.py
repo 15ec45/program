@@ -1,0 +1,13 @@
+a=int(input())
+i=0
+fv=0
+sv=1
+while(i<a):
+   if(i<=1):
+      next=i
+   else:
+      next=fv+sv
+      fv=sv
+      sv=next
+   print(next)
+   i=i+1
